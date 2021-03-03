@@ -14,8 +14,7 @@ function createPost(post){
     }else{
       reject('Error: Something went wrong!');
     }
-    resolve();
-  }, 2000);
+    }, 2000);
   });
  
 }
